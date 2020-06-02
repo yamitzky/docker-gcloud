@@ -13,4 +13,4 @@ if [[ ! -z "${AWS_CONTAINER_CREDENTIALS_RELATIVE_URI}" ]]; then
 fi
 
 gcloud auth activate-service-account --key-file $GOOGLE_CLOUD_KEY_FILE 
-$@
+"$@"
